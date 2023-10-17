@@ -18,7 +18,6 @@ Lien de l'app : [App Viewer CertiSoft](https://app.certisoft.ch){:target="_blank
 
 ### v3.1.7
 
- - Web : Ajout de création de complaintes pour le rôle public
  - Web : Ajout de l'insertion automatique login et mot de passe
  - Web : Correction du bug de version de document
 
