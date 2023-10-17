@@ -2,25 +2,37 @@
 
 ### v3.1.8 (en préparation)
 
-- Web : Amélioration du téléchargement de documents
+#### Viewer
+- Amélioration du téléchargement de documents
+- Les espaces sont maintenant automatiquement enlevés avant et après le login pour réduire les erreurs de connexion
+- Correction de l'envoi de documents dans le formulaire d'annonces
+
+#### User
+- Ajout de la mise à jour d'un document dans les notifications
+- Ajout de champs aux documents (auteur, fin de validité et visibilité)
+- Ajout du statut d'audit interne à archiver
+- Redesign des notifications
+- Correction de l'affichage de la norme au premier chargement
 
 ---
 
 ### v3.1.7
 
-- App Viewer : Ajout de création de complaintes pour le rôle public
-- App Viewer : Ajout de l'insertion automatique login et mot de passe
-- App Viewer : Correction du bug de version de document
+#### Viewer
+- Ajout de l'insertion automatique login et mot de passe
+- Correction du bug de version de document
 
-
-- App User : Ajout des comptes Viewer only (webapp)
-- App User : Nouveau design pour les notifications
-- App User : Ajout du lien direct vers l'application Web dans les notifications pour les viewers
-- App User : Rajout de notifications liées à certains évènements tel que :
+#### User
+- Ajout des comptes Viewer only (webapp)
+- Ajout du lien direct vers l'application Web dans les notifications pour les viewers
+- Ajout de notifications liées à certains évènements tel que :
     - Demande de validation d'un document
-    - Création d'une annonce depuis la Webapp
-    - Attribution d'une annonce à un responsable
-    - Envoi email quand annonce
+      - Création d'une annonce depuis la Webapp
+      - Attribution d'une annonce à un responsable
+      - Envoi email quand annonce
+- App User : Nouveau design pour les notifications
+
+---
 
 ### Anciennes versions
 
