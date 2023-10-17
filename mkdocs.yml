@@ -3,6 +3,7 @@ site_name: Documentation Certisoft
 theme:
   name: material
   language: fr
+  logo: assets/certisoft-logo-white.png
   palette:
     - scheme: default
       toggle:
@@ -34,6 +35,7 @@ markdown_extensions:
   - attr_list
 
 extra:
+  homepage: https://certisoft.ch
   social:
     - icon: fontawesome/brands/github-alt
       link: https://boardmanagementsystems.ch
