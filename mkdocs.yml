@@ -4,14 +4,18 @@ theme:
   name: material
   language: fr
   palette:
-    - scheme: light
+    - scheme: default
       toggle:
         icon: fontawesome/solid/moon
         name: Mode sombre
-    - scheme: dark
+      primary: custom
+
+    - scheme: slate
       toggle:
         icon: octicons/sun-16
         name: Mode clair
+      primary: custom
+
   features:
     - navigation.tabs
     - navigation.sections
@@ -28,9 +32,6 @@ extra_css:
 
 markdown_extensions:
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra:
   social:
