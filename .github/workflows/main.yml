@@ -1,4 +1,4 @@
-name: naim
+name: main
 on:
   push:
     branches:
