@@ -1,0 +1,40 @@
+site_name: Documentation Certisoft
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: light
+      toggle:
+        icon: fontawesome/solid/moon
+        name: Mode sombre
+    - scheme: dark
+      toggle:
+        icon: octicons/sun-16
+        name: Mode clair
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+extra_css:
+  - stylesheets/theme-colors.css
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://boardmanagementsystems.ch
+
+copyright: 2023 <a href="https://certisoft.ch" target="_blank">Certisoft SA</a> &copy;
