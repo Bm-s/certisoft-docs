@@ -16,12 +16,6 @@ Lien de l'app : [App Viewer CertiSoft](https://app.certisoft.ch){:target="_blank
 ## Notes de mise à jour
 
 
-### v3.1.8 (en préparation)
-
-- Web : Amélioration du téléchargement de documents
-
----
-
 ### v3.1.7
 
  - Web : Ajout de création de complaintes pour le rôle public
