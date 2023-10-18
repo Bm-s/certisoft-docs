@@ -28,6 +28,12 @@ theme:
     - content.code.annotation
     - content.code.copy
 
+nav:
+  - CertiSoft SA: index.md
+  - Documentation Viewer: viewer.md
+  - Documentation User: user.md
+  - Notes de mise à jour: release-notes.md
+
 extra_css:
   - stylesheets/theme-colors.css
 

@@ -10,8 +10,8 @@ Vous trouverez ici la documentation des comptes "Viewer" et "User" de l'applicat
 
 ## Liens de la documentation
 
-[Documentation Viewer](02_viewer.md)
+[Documentation Viewer](viewer.md)
 
-[Documentation User](03_user.md)
+[Documentation User](user.md)
 
-[Notes de mise à jour](04_release-notes.md)
+[Notes de mise à jour](release-notes.md)

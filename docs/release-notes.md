@@ -1,6 +1,23 @@
 # Notes de mise à jour
 
 
+### v3.1.8 (en préparation)
+
+#### Viewer
+- Amélioration du téléchargement de documents
+- Les espaces sont maintenant automatiquement enlevés avant et après le login pour réduire les erreurs de connexion
+- Correction de l'envoi de documents dans le formulaire d'annonces
+
+#### User
+- Ajout de la mise à jour d'un document dans les notifications
+- Ajout de champs aux documents (auteur, fin de validité)
+- Ajout de la possibilité de rendre un "Risque et oportunité" visible par l'équipe uniquement
+- Ajout du statut d'audit interne à archiver
+- Redesign des notifications
+- Correction de l'affichage de la norme au premier chargement
+
+---
+
 ### v3.1.7
 
 #### Viewer
