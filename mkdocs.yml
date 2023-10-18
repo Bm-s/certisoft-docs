@@ -37,7 +37,7 @@ markdown_extensions:
 extra:
   homepage: https://certisoft.ch
   social:
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/solid/globe
       link: https://boardmanagementsystems.ch
 
 copyright: 2023 <a href="https://certisoft.ch" target="_blank">CertiSoft SA</a> &copy;
