@@ -9,7 +9,8 @@
 
 #### User
 - Ajout de la mise à jour d'un document dans les notifications
-- Ajout de champs aux documents (auteur, fin de validité et visibilité)
+- Ajout de champs aux documents (auteur, fin de validité)
+- Ajout de la possibilité de rendre un "Risque et oportunité" visible par l'équipe uniquement
 - Ajout du statut d'audit interne à archiver
 - Redesign des notifications
 - Correction de l'affichage de la norme au premier chargement
