@@ -4,6 +4,9 @@ theme:
   name: material
   language: fr
   logo: assets/certisoft-logo-white.png
+  favicon: assets/favicon.ico
+  home: 01_index.md
+
   palette:
     - scheme: default
       toggle:
