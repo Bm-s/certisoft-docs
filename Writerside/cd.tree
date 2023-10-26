@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="cd"
+                 name="Certisoft Documentation"
+                 start-page="CertiSoft-SA.md">
+
+    <toc-element topic="CertiSoft-SA.md"/>
+    <toc-element topic="Documentation-Viewer.md"/>
+    <toc-element topic="Documentation-User.md"/>
+    <toc-element topic="Notes-de-mise-a-jour.md"/>
+</instance-profile>

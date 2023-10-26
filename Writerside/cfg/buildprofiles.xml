@@ -1,0 +1,13 @@
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <variables>
+        <header-logo>certisoft-logo-white.png</header-logo>
+        <color-preset>vivid</color-preset>
+        <primary-color>aqua</primary-color>
+    </variables>
+    <build-profile instance="cd"/>
+    <footer>
+        <copyright>CertiSoft SA 2023</copyright>
+        <social type="linkedin" href="https://www.linkedin.com/company/certisoft/"/>
+        <link href="https://boardmanagementsystems.ch">Board Management Systems SA</link>
+    </footer>
+</buildprofiles>
