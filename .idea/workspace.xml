@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62e6e56-0f2c-425a-aed6-e4bce6fa290b" name="Changes" comment="new docs on Writerside" />
+    <list default="true" id="c62e6e56-0f2c-425a-aed6-e4bce6fa290b" name="Changes" comment="deploy yamleuhle">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v3.1.8" />
+        <entry key="$PROJECT_DIR$" value="3.1.8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,7 +76,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "3.1.8",
+    "git-widget-placeholder": "v3.1.8",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Git/certisoft-docs/Writerside/images",
     "node.js.detected.package.eslint": "true",
@@ -84,6 +87,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true",
     "writerside.last.selected.productcertisoft-docs": "cd"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "GitIgnore"
+    ],
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -134,6 +144,8 @@
       <workItem from="1697528447829" duration="13062000" />
       <workItem from="1697612600907" duration="3777000" />
       <workItem from="1698320033405" duration="148000" />
+      <workItem from="1699425184385" duration="21000" />
+      <workItem from="1700465300848" duration="179000" />
     </task>
     <task id="LOCAL-00001" summary="init mkdocs">
       <option name="closed" value="true" />
@@ -307,6 +319,8 @@
     <MESSAGE value="added CNAME to doc dir" />
     <MESSAGE value="use nav to order pages" />
     <MESSAGE value="new docs on Writerside" />
-    <option name="LAST_COMMIT_MESSAGE" value="new docs on Writerside" />
+    <MESSAGE value="renaamed" />
+    <MESSAGE value="deploy yamleuhle" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy yamleuhle" />
   </component>
 </project>
