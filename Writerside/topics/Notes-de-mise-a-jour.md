@@ -1,7 +1,7 @@
 # Notes de mise à jour
 
 
-### v3.1.8 (en préparation)
+### v3.1.8
 
 ***Viewer***
 - Amélioration du téléchargement de documents
