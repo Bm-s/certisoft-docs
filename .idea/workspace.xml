@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62e6e56-0f2c-425a-aed6-e4bce6fa290b" name="Changes" comment="modify path">
+    <list default="true" id="1423e0b3-5fa8-421a-aa8c-c07dc0fa8596" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/topics/Notes-de-mise-a-jour.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/Notes-de-mise-a-jour.md" afterDir="false" />
     </list>
@@ -72,14 +72,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "v3.1.8",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Git/shares-docs",
+    "last_opened_file_path": "C:/Users/PierreBalet/WritersideProjects/shares-docs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -320,8 +319,6 @@
     <MESSAGE value="new docs on Writerside" />
     <MESSAGE value="renaamed" />
     <MESSAGE value="deploy yamleuhle" />
-    <MESSAGE value="add gitignore" />
-    <MESSAGE value="modify path" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify path" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy yamleuhle" />
   </component>
 </project>
