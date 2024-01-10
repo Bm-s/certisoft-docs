@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1423e0b3-5fa8-421a-aa8c-c07dc0fa8596" name="Changes" comment="">
+    <list default="true" id="1423e0b3-5fa8-421a-aa8c-c07dc0fa8596" name="Changes" comment="prepared for prod">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/topics/Notes-de-mise-a-jour.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/Notes-de-mise-a-jour.md" afterDir="false" />
     </list>
@@ -16,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="3.1.8" />
+        <entry key="$PROJECT_DIR$" value="v3.1.8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +76,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "v3.1.8",
+    "git-widget-placeholder": "dev",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/PierreBalet/WritersideProjects/shares-docs",
     "node.js.detected.package.eslint": "true",
@@ -319,6 +319,7 @@
     <MESSAGE value="new docs on Writerside" />
     <MESSAGE value="renaamed" />
     <MESSAGE value="deploy yamleuhle" />
-    <option name="LAST_COMMIT_MESSAGE" value="deploy yamleuhle" />
+    <MESSAGE value="prepared for prod" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepared for prod" />
   </component>
 </project>

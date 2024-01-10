@@ -1,5 +1,18 @@
 # Notes de mise à jour
 
+### v3.1.9
+
+***Viewer***
+
+
+***User***
+- Ajout de la possibilité de trier par colonne dans les annonces
+- Ajout de la possibilité de filtrer les annonces par différents critères
+
+***Admin***
+- Correction du bug de l'ajout de document en favori dans la WebApp
+
+---
 
 ### v3.1.8
 
