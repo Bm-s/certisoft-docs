@@ -9,5 +9,9 @@
     <toc-element topic="CertiSoft-SA.md"/>
     <toc-element topic="Documentation-Viewer.md"/>
     <toc-element topic="Documentation-User.md"/>
-    <toc-element topic="Notes-de-mise-a-jour.md"/>
+    <toc-element topic="Notes-de-mise-a-jour.md">
+        <toc-element topic="Explicatif-de-mise-a-jour-3-1-9.md"/>
+        <toc-element topic="Explicatif-de-mise-a-jour-3-1-8.md"/>
+        <toc-element topic="Explicatif-de-mise-a-jour-3-1-7.md"/>
+    </toc-element>
 </instance-profile>
