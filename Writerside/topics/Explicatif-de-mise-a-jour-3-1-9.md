@@ -3,23 +3,23 @@
 ## Modifications sur les paramètres utilisateur
 - Le symbole de changement de mot de passe a été revu pour une meilleure compréhension dans la gestion des utilisateurs.
 - Ajout d'une option par utilisateur pour choisir si le lien de notification email ouvre l'Application dans FileMaker ou dans WebDirect, offrant plus de flexibilité.
-![3-1-9-01.png](3-1-9-01.png)
+![3-1-9-01.png](3-1-9_01.png)
  
 ## Tri et filtres des activités et annonces
 
 Il est maintenant possible de trier les activités et annonces par colonne en cliquant sur le titre de la colonne. Un symbole de flèche indique le sens du tri.
 
-![3-1-9-03.png](3-1-9-03.png)
+![3-1-9-03.png](3-1-9_03.png)
 
-![3-1-9-02.png](3-1-9-02.png) 
+![3-1-9-02.png](3-1-9_02.png) 
 
 Le symbole de filtre permet d'ajouter ou de supprimer des filtres sur différents éléments. Les filtres sont cumulables.
 
-![3-1-9-04.png](3-1-9-04.png)
+![3-1-9-04.png](3-1-9_04.png)
 
 Le symbole de filtre bleu indique que des filtres sont actifs. 
 
-![3-1-9-05.png](3-1-9-05.png)
+![3-1-9-05.png](3-1-9_05.png)
 
 
 ## Cartographie interactive sur WebDirect

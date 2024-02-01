@@ -10,7 +10,7 @@ Nous avons ajouté la possibilité de renseigner deux nouveaux champs par versio
 ## Statut archivé pour les Audits
 Les status des audits ont maintenant un statut "archivé". Les audits ayant un statut considéré comme "archivé" ne sont plus modifiables.
 
-![3-1-8-01.png](3-1-8-01.png)
+![3-1-8-01.png](3-1-8_01.png)
 
 Un audit ayant un statut considéré "archivé" peut être changé par un Admin, il lui sera demandé une confirmation avant de changer le statut.  
 
@@ -18,7 +18,7 @@ Un audit ayant un statut considéré "archivé" peut être changé par un Admin,
 ## Amélioration de la gestion des Risques et Opportunités 
  Il est possible de limiter l'accès à un risque/opportunité en fonction du "Processus" lié. Seul l'équipe du processus pourra le voir si la case correspondante est cochée.
 
-![3-1-8-02.png](3-1-8-02.png)
+![3-1-8-02.png](3-1-8_02.png)
 
 
 ## Amélioration des notifications
