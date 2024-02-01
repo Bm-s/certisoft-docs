@@ -10,5 +10,4 @@
 [Explicatif de mise à jour v3.1.7](Explicatif-de-mise-a-jour-3-1-7.md)
 
 ### Anciennes versions
-
 Les changements des anciennes versions ne sont pas documentées ici.
