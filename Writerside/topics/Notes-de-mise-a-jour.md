@@ -4,13 +4,40 @@
 
 ***Viewer***
 
+Affichage optimisé : 
+  - Les documents expirés ne seront plus affichés dans les favoris, garantissant une expérience utilisateur plus fluide
+
+Tri intelligent : 
+  - L'ordre de tri des activités a été harmonisé avec celui de l'application, offrant une cohérence accrue
+
+Sécurité renforcée : 
+  - Mise à jour importante de la sécurité pour la WebApp, assurant une navigation sûre et protégée
+
 
 ***User***
-- Ajout de la possibilité de trier par colonne dans les annonces
-- Ajout de la possibilité de filtrer les annonces par différents critères
+
+Personnalisation des annonces : 
+- Nouvelle fonctionnalité permettant de trier les annonces par colonne et de les filtrer selon divers critères pour une recherche facilitée
+
+Correction de bugs : 
+- Le message d'erreur "login déjà utilisé" lors du changement de mot de passe n'apparaît plus
+- L'application charge correctement après le changement de mot de passe forcé au lancement
+
+Expériences enrichies : 
+- Introduction de la cartographie interactive sur WebDirect
+- Amélioration des informations et notifications par email
 
 ***Admin***
-- Correction du bug de l'ajout de document en favori dans la WebApp
+
+Gestion des favoris : 
+- Correction d'un bug lié à l'ajout de documents en favoris via la WebApp.
+
+Messages d'erreur explicites : 
+- Les messages d'erreur ont été clarifiés pour les cas d'envoi d'annonce sans email associé au compte depuis la WebApp.
+
+Interface utilisateur améliorée : 
+- Le symbole de changement de mot de passe a été revu pour une meilleure compréhension dans la gestion des utilisateurs. 
+- Une nouvelle option permet désormais à chaque utilisateur de choisir si le lien de notification email doit ouvrir l'app FileMaker ou WebDirect, offrant plus de flexibilité.
 
 ---
 
@@ -45,7 +72,7 @@
 - Ajout du lien direct vers l'application Web dans les notifications pour les viewers
 - Ajout de notifications liées à certains évènements tel que :
     - Demande de validation d'un document
-        - Création d'une annonce depuis la Webapp
+        - Création d'une annonce depuis la WebApp
         - Attribution d'une annonce à un responsable
         - Envoi email quand annonce
 
