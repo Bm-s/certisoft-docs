@@ -22,7 +22,7 @@ Le symbole de filtre bleu indique que des filtres sont actifs.
 ![3-1-9-05.png](3-1-9_05.png)
 
 
-## Cartographie interactive sur WebDirect
+## Cartographie interactive sur navigateur web
 La cartographie interactive est désormais fonctionnelle depuis un novigateur web. Il est maintenant possible de l'utiliser et de la configurer comme sur l'Application.
 
 
