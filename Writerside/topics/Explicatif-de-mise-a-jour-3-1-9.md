@@ -5,9 +5,9 @@
 - Ajout d'une option par utilisateur pour choisir si le lien de notification email ouvre l'Application dans FileMaker ou depuis le navigateur web par défaut, offrant plus de flexibilité.
 ![3-1-9-01.png](3-1-9_01.png)
  
-## Tri et filtres des activités et annonces
+## Tris et filtres des activités et annonces
 
-Il est maintenant possible de trier les activités et annonces par colonne en cliquant sur le titre de la colonne. Un symbole de flèche indique le sens du tri.
+Il est désormais possible de trier les activités ainsi annonces par colonne en cliquant sur le titre de la colonne. Un symbole de flèche indique le sens du tri.
 
 ![3-1-9-03.png](3-1-9_03.png)
 
@@ -23,7 +23,7 @@ Le symbole de filtre bleu indique que des filtres sont actifs.
 
 
 ## Cartographie interactive sur WebDirect
-La cartographie interactive est fonctionnelle sur WebDirect. Il est maintenant possible de l'utiliser et de la configurer comme sur l'Application.
+La cartographie interactive est désormais fonctionnelle depuis un novigateur web. Il est maintenant possible de l'utiliser et de la configurer comme sur l'Application.
 
 
 ## Amélioration de la WebApp
