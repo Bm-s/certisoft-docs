@@ -23,7 +23,7 @@ Le symbole de filtre bleu indique que des filtres sont actifs.
 
 
 ## Cartographie interactive sur navigateur web
-La cartographie interactive est désormais fonctionnelle depuis un novigateur web. Il est maintenant possible de l'utiliser et de la configurer comme sur l'Application.
+La cartographie interactive est désormais fonctionnelle depuis un navigateur web. Il est maintenant possible de l'utiliser et de la configurer comme sur l'Application.
 
 
 ## Amélioration de la WebApp
