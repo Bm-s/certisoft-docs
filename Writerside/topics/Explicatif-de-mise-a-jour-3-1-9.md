@@ -32,6 +32,7 @@ Le tri des activités de la WebApp pour les viewers a été modifié pour corres
 
 ## Archivage des audits internes
 Il est désormais possible de définir une option "archivée" sur un statut d'audit interne. Dès lors qu'un audit passera dans ce statut, il sera verrouillé complètement et ne pourra être déverrouillé que par un administrateur.
+
 ![audit_parameter.png](audit_parameter.png)
 
 
