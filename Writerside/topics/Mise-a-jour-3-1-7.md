@@ -1,4 +1,4 @@
-# Explicatif de mise à jour v3.1.7
+# Mise à jour v3.1.7
 
 
 ## Notifications mail

@@ -1,4 +1,4 @@
-# Explicatif de mise à jour v3.1.9
+# Mise à jour v3.1.9
 
 
 ## Modifications sur les paramètres utilisateur
