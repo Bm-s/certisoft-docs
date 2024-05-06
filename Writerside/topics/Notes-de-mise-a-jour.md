@@ -1,5 +1,8 @@
 # Notes de mise à jour
 
+### v3.2.0
+[Explicatif de mise à jour v3.2.0](Mise-a-jour-3-2-0)
+
 ### v3.1.9
 [Explicatif de mise à jour v3.1.9](Mise-a-jour-3-1-9.md)
 
