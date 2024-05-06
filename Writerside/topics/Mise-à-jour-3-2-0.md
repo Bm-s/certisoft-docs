@@ -1,4 +1,4 @@
-# Mise à jour v3.2.0
+# Mise à jour v3.2.0 
 
 
 ## Notifications ciblée depuis actions
