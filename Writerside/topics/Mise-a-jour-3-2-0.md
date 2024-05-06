@@ -3,9 +3,11 @@
 
 ## Notifications ciblée depuis actions
 Il est désormais possible de notifier un autre utilisateur depuis le module "Action". D'autres modules viendront par la suite.
+
 ![action_notification.png](action_notifications.png)
 
 En cliquant sur l'icon avec la petite enveloppe la fenêtre suivante s'ouvre:
+
 ![notification_window.png](notification_window.png)
 
 Vous avez la possibilité d'envoyer la notification par email en A, CC, CCI aux utilisateurs avec un sujet et un message.
