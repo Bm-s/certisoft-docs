@@ -1,5 +1,8 @@
 # Notes de mise à jour
 
+### v240709
+[Explicatif de mise à jour v240709](Mise-a-jour-240709.md)
+
 ### v3.2.0
 [Explicatif de mise à jour v3.2.0](Mise-a-jour-3-2-0.md)
 
