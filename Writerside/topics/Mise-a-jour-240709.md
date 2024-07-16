@@ -1,26 +1,26 @@
 # Mise à jour v240709
 
-## Modification de la notation de version
+## Modification de la notation des versions
 
-Passage sur un système basé sur la date
+Passage sur un système basé sur la date.
 
-## Refonte complète du module annonces
+## Refonte complète du module d'annonces
 
-### Création et éditions des formulaires web (types d'annonces)
+### Création et édition des formulaires web (types d'annonces)
 
 Ajout d'un menu spécifique pour la configuration des différents types d'annonces dans les réglages.
 
 ![cs_settings_menu_complaint_types.png](cs_settings_menu_complaint_types.png)
 
-L'ajout, la récupération d'ID et la suppression des types sont désormais déplacés dans ce menu spécifique.
+L'ajout, la récupération d'ID et la suppression des types d'annonces sont désormais disponibles dans un menu spécifique.
 <br/>
-Un indicateur de statut a été ajouté pour une meilleure visualisation de la disponibilité publique des types d'annonces.
+Une mention du statut a été ajoutée pour visualiser si le formulaire est visible par les utilisateurs ou non.
 
 ![cs_settings_complaint_types_listing.png](cs_settings_complaint_types_listing.png)
 
-Lors du clic sur un type, ses informations s'affichent sur la droite.
+Lors du clic sur un type d'annonces, les informations y relatives s'affichent sur la droite.
 <br/>
-Il est possible de définir un secteur d'annonce, qui sera non modifiable lors du remplissage du formulaire.
+Il est possible de définir un secteur d'annonce, ceci impliquant un champ non modifiable au moment du remplissage du formulaire.
 
 ![cs_settings_complaint_types_sector_dropdown.png](cs_settings_complaint_types_sector_dropdown.png)
 
@@ -30,29 +30,33 @@ Le listing des questions permet de définir la structure du formulaire de maniè
 
 L'ordre des questions correspond à l'ordre dans lequel elles apparaîtront dans le formulaire web. 
 
-L'icone ![cs_settings_complaint_types_questions_example.png](cs_settings_complaint_types_questions_example.png) montre un exemple d'affichage du type de question.
+L'icône ![cs_settings_complaint_types_questions_example.png](cs_settings_complaint_types_questions_example.png) montre un exemple d'affichage du type de questions.
 
-Le bouton d'édition permet de modifier des options spécifiques, comme un complément à la question, rendre la question obligatoire, une note maximum, les choix de réponses, etc.
+Le bouton d'édition permet de modifier des options spécifiques, telles que : un complément à la question, rendre la question obligatoire, une note maximum, les choix de réponses, etc.
 
 ### Création d'une annonce
 
-La création d'annonce se fait maintenant uniquement via un formulaire web. Le bouton "Nouvelle annonce" ouvre la page dans le navigateur par défaut.
+La création d'annonces se fait dorénavant uniquement via un formulaire web. Le bouton "Nouvelle annonce" ouvre la page dans le navigateur par défaut.
 
 ![cs_complaint_new.png](cs_complaint_new.png)
 
 ### Exportation d'annonces
 
-Le comportement du bouton d'exportation a été modifié pour une meilleure expérience utilisateur et pour correspondre à la nouvelle structure des annonces.
-Désormais, un fichier .xlsx est généré avec une page par type d'annonce, contenant toutes les questions remplies pour ce type.
+L'action déclenchée par le bouton d'exportation a été modifiée afin d'apporter une meilleure expérience utilisateur et correspondre à la nouvelle structure des annonces.
+Désormais, un fichier .xlsx est généré avec une feuille par type d'annonces, contenant toutes les questions remplies pour ce type.
 
 ![cs_complaint_export.png](cs_complaint_export.png)
 
+### Refonte graphique du listing et de l'affichage des annonces
+
+Le visuel du listing et de l'affichage des annonces a été retravailler afin d'apporter une meilleure lisibilité, un design plus moderne et une utilisation plus agréable.
+
 ## Modification du formulaire web d'annonces
 
-Le type d'annonces doit maintenant être sélectionné avant l'affichage du formulaire. Le formulaire est généré dynamiquement en fonction de la configuration dans Filemaker.
+Le type d'annonces doit être sélectionné avant l'affichage du formulaire. Le formulaire est généré de façon dynamique en fonction de la configuration dans la base de données.
 
 ![cs_web_formular_complaint_type_selection.png](cs_web_formular_complaint_type_selection.png)
 
 ## Correction de bugs
 
-- Correction d'un bug de la webapp qui empêchait la récupération du mot de passe. 
+- Correction d'un bug de l'application web qui empêchait la récupération du mot de passe. 
