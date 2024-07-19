@@ -1,10 +1,10 @@
-# Mise à jour v240709
+# Mise à jour v2024.07.22
 
 ## Modification de la notation des versions
 
 Passage sur un système basé sur la date.
 
-## Refonte complète du module d'annonces
+## Refonte complète du module d'annoncesh
 
 ### Création et édition des formulaires web (types d'annonces)
 
@@ -28,7 +28,7 @@ Le listing des questions permet de définir la structure du formulaire de maniè
 
 ![cs_settings_complaint_types_questions_listing.png](cs_settings_complaint_types_questions_listing.png)
 
-L'ordre des questions correspond à l'ordre dans lequel elles apparaîtront dans le formulaire web. 
+L'ordre des questions correspond à l'ordre dans lequel elles apparaîtront dans le formulaire web.
 
 L'icône ![cs_settings_complaint_types_questions_example.png](cs_settings_complaint_types_questions_example.png) montre un exemple d'affichage du type de questions.
 
