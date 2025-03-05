@@ -2,57 +2,73 @@
 
 ## Refonte complète du module d'indicateurs
 
-### Création et édition des formulaires web (types d'annonces)
+### Création d'un indicateur
 
-Ajout d'un menu spécifique pour la configuration des différents types d'annonces dans les réglages.
+Un nouvel indicateur peut être créé avec le bouton "+" en haut à droite du tableau. Une nouvelle ligne avec un identifiant auto-assigné est créée.
 
-![cs_settings_menu_complaint_types.png](cs_settings_menu_complaint_types.png)
+![250317_cs_indicator_new.png](250317_cs_indicator_new.png)
 
-L'ajout, la récupération d'ID et la suppression des types d'annonces sont désormais disponibles dans un menu spécifique.
-<br/>
-Une mention du statut a été ajoutée pour visualiser si le formulaire est visible par les utilisateurs ou non.
+En cliquant sur l'indicateur souhaité, la page détail s'ouvre et affiche ses informations. 
 
-![cs_settings_complaint_types_listing.png](cs_settings_complaint_types_listing.png)
+La moitié haute de la page permet de modifier les informations de base : le nom, la description, les droits.
 
-Lors du clic sur un type d'annonces, les informations y relatives s'affichent sur la droite.
-<br/>
-Il est possible de définir un secteur d'annonce, ceci impliquant un champ non modifiable au moment du remplissage du formulaire.
+La partie basse contient deux onglets : Relevés et Paramètres
 
-![cs_settings_complaint_types_sector_dropdown.png](cs_settings_complaint_types_sector_dropdown.png)
+### Modification d'un indicateur
 
-Le listing des questions permet de définir la structure du formulaire de manière dynamique et complète.
+Dans l'onglet paramètres, on retrouve différentes options :
 
-![cs_settings_complaint_types_questions_listing.png](cs_settings_complaint_types_questions_listing.png)
+#### Périodicité
 
-L'ordre des questions correspond à l'ordre dans lequel elles apparaîtront dans le formulaire web. 
+La périodicité permet de sélectionner un instant où une période, cette option permet de choisir si les mesures seront ajoutée avec uniquement une date (instant T) ou une date de début et une date de fin (période).  
 
-L'icône ![cs_settings_complaint_types_questions_example.png](cs_settings_complaint_types_questions_example.png) montre un exemple d'affichage du type de questions.
+![250317_cs_indicator_edit_period_type.png](250317_cs_indicateur_edit_period_type.png)
 
-Le bouton d'édition permet de modifier des options spécifiques, telles que : un complément à la question, rendre la question obligatoire, une note maximum, les choix de réponses, etc.
+#### Période d'analyse
 
-### Création d'une annonce
+La période d'analyse propose plusieurs choix de récurrence ainsi qu'une date de début des mesures.   
 
-La création d'annonces se fait dorénavant uniquement via un formulaire web. Le bouton "Nouvelle annonce" ouvre la page dans le navigateur par défaut.
+![250317_cs_indicator_edit_period_selection.png](250317_cs_indicator_edit_period_selection.png)
 
-![cs_complaint_new.png](cs_complaint_new.png)
+Les choix de récurrence peuvent avoir une spécificité : 
 
-### Exportation d'annonces
+*Quotidien, Trimestriel, Semestriel, Annuel* - Nombre de jours avant l'alerte
 
-L'action déclenchée par le bouton d'exportation a été modifiée afin d'apporter une meilleure expérience utilisateur et correspondre à la nouvelle structure des annonces.
-Désormais, un fichier .xlsx est généré avec une feuille par type d'annonces, contenant toutes les questions remplies pour ce type.
+*Hebdomadaire* - Sélection du jour de la semaine
 
-![cs_complaint_export.png](cs_complaint_export.png)
+*Mensuel* - Jour du relevé : premier ou dernier parmi les jours de la semaine
 
-### Refonte graphique du listing et de l'affichage des annonces
+*Libre* - Aucun
 
-Le visuel du listing et de l'affichage des annonces a été retravailler afin d'apporter une meilleure lisibilité, un design plus moderne et une utilisation plus agréable.
+#### Cases à cocher
 
-## Modification du formulaire web d'annonces
+Deux cases à cocher sont disponibles pour marquer l'indicateur comme archivé et pour choisir de ne pas envoyer de rappel pour cet indicateur (de manière globale) 
 
-Le type d'annonces doit être sélectionné avant l'affichage du formulaire. Le formulaire est généré de façon dynamique en fonction de la configuration dans la base de données.
+![250317_cs_indicator_edit_checkboxes.png](250317_cs_indicator_edit_checkboxes.png)
 
-![cs_web_formular_complaint_type_selection.png](cs_web_formular_complaint_type_selection.png)
+#### Modèles de mesures
 
-## Correction de bugs
+Au moins un modèle est obligatoire pour pouvoir ajouter un relevé de mesures dans l'indicateur. 
 
-- Correction d'un bug de l'application web qui empêchait la récupération du mot de passe. 
+Le modèle de relevé et l'unité sont des champs textes libres pour laisser le choix de paramétrage. Le type est Oui/Non, nombre ou texte et défini ce que l'utilisateur devra rentrer comme mesure.
+<br/> 
+Il est possible de supprimer un modèle en cliquant sur la corbeille rouge à droite. Attention cette action est irreversible. 
+
+![250317_cs_indicator_edit_modeles.png](250317_cs_indicator_edit_modeles.png)
+
+### Insertion de mesures
+
+Dans l'onglet "Relevés", un nouveau relevé peut être inséré au clic sur le "+" en haut à droite du tableau.
+
+![250317_cs_indicator_measure_new.png](250317_cs_indicator_measure_new.png)
+
+La ou les dates sont pré-insérées automatiquement en fonction des dernières valeurs trouvées. Elles peuvent être modifiées en cas de besoin.
+
+Les mesures sont préparées selon le ou les modèles définis dans les paramètres. Seule la valeur doit être remplie.
+
+Un commentaire peut être ajouté avant de fermer la fenêtre. 
+
+### Suppression de relevé
+
+Un relevé supprimé l'est définitivement avec toutes ses mesures ! 
+
