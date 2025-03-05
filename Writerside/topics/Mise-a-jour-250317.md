@@ -72,3 +72,22 @@ Un commentaire peut être ajouté avant de fermer la fenêtre.
 
 Un relevé supprimé l'est définitivement avec toutes ses mesures ! 
 
+## Module indicateur de la webapp
+
+Le module indicateur a été modifié pour correspondre au nouveau système. La webapp permet l'insertion rapide et facile de measures
+
+### Dashboard
+
+Le dashboard affiche la liste des indicateurs ayant des mesures en retard.
+
+Dans le listing des indicateurs, ces indicateurs sont représentés par le nombre d'indicateurs en retard dans le cercle rouge
+
+![250317_cs_web_indicator_list_late.png](250317_cs_web_indicator_list_late.png)
+
+Lors du click sur un indicateur, le formulaire d'ajout de mesure s'ouvre et pré-insère les dates en fonction des paramètres de cet indicateur et du dernier relevé effectué.
+Sur la droite sont affichées les données du dernier relevé en date.
+
+Sur la version mobile, les informations du dernier relevé sont disponibles en cliquant sur le bouton "Afficher les données du dernier relevé".
+Les données apparaîtront en texte grisé au-dessus des champs d'insertion du relevé en cours d'insertion.
+
+![250317_cs_web_indicator_new_measure_last_data.png](250317_cs_web_indicator_new_measure_last_data.png)
