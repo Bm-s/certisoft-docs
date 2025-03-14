@@ -41,7 +41,7 @@ jobs:
           docker-version: ${{ env.DOCKER_VERSION }}
 
       - name: Upload documentation
-        uses: actions/upload-artifact@v3.1.2
+        uses: actions/upload-artifact@v3
         with:
           name: docs
           path: |
@@ -51,7 +51,7 @@ jobs:
 
       # Add the step below to upload Algolia indexes
       - name: Upload algolia-indexes
-        uses: actions/upload-artifact@v3.1.2
+        uses: actions/upload-artifact@v3
         with:
           name: algolia-indexes
           path: artifacts/${{ env.ALGOLIA_ARTIFACT }}
@@ -84,7 +84,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3.1.2
+        uses: actions/download-artifact@v3
         with:
           name: docs
 
