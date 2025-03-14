@@ -18,4 +18,12 @@
         <description>Created after removal of "App User" from Certisoft Documentation</description>
         <accepts>Documentation-User.html</accepts>
     </rule>
+    <rule id="46982ec2">
+        <description>Created after removal of "Mise à jour v240709" from Certisoft Documentation</description>
+        <accepts>Mise-a-jour-240709.html</accepts>
+    </rule>
+    <rule id="cef9358">
+        <description>Created after removal of "Mise à jour v2024.07.22" from Certisoft Documentation</description>
+        <accepts>MIse-à-jour-v2024-07-22.html</accepts>
+    </rule>
 </rules>
