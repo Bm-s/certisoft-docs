@@ -1,45 +1,33 @@
-name: Build documentation CertiSoft SA
+name: Build documentation
 
 on:
-  # Déclenche le workflow à chaque push sur la branche `main`.
   push:
     branches: ["main"]
-  # Permet aussi de lancer le workflow manuellement depuis l’onglet Actions.
   workflow_dispatch:
 
-# Permissions nécessaires pour cloner le dépôt, publier sur GitHub Pages, etc.
 permissions:
   id-token: write
   pages: write
   contents: read
 
-# Variables d’environnement réutilisables dans les steps (env. global au workflow)
 env:
-  # Nom de l’instance Writerside
-  INSTANCE: Writerside/cd
-  # Nom du fichier ZIP généré
-  ARTIFACT: webHelpCD2-all.zip
-  # Version de l’image Docker Writerside
-  DOCKER_VERSION: 2.1.1479-p3869
-  # Fichier pour l’index Algolia (optionnel)
-  ALGOLIA_ARTIFACT: algolia-indexes-CD.zip
+  INSTANCE: Writerside/<votreID>   # par ex. Writerside/cd
+  ARTIFACT: webHelp-all.zip        # le zip généré
+  DOCKER_VERSION: 2.1.1479-p3869   # version Writerside Docker
+  ALGOLIA_ARTIFACT: algolia-indexes.zip
 
 jobs:
-  # 1) JOB DE BUILD
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Build Writerside docs using Docker
+      - name: Build Writerside docs
         uses: JetBrains/writerside-github-action@v4
         with:
           instance: ${{ env.INSTANCE }}
           artifact: ${{ env.ARTIFACT }}
           docker-version: ${{ env.DOCKER_VERSION }}
-
       - name: Upload documentation
         uses: actions/upload-artifact@v3
         with:
@@ -47,65 +35,45 @@ jobs:
           path: |
             artifacts/${{ env.ARTIFACT }}
             artifacts/report.json
-          retention-days: 7
 
-      - name: Upload algolia-indexes
-        uses: actions/upload-artifact@v3
-        with:
-          name: algolia-indexes
-          path: artifacts/${{ env.ALGOLIA_ARTIFACT }}
-          retention-days: 7
-
-  # 2) JOB DE TEST
   test:
-    # Dépend du job `build` (il s’exécute seulement si le build réussit)
     needs: build
     runs-on: ubuntu-latest
-
     steps:
       - name: Download docs artifact
         uses: actions/download-artifact@v3
         with:
           name: docs
           path: artifacts
-
       - name: Test documentation
         uses: JetBrains/writerside-checker-action@v1
         with:
           instance: ${{ env.INSTANCE }}
-          # Selon le fonctionnement du checker, il peut lire `report.json` dans `artifacts/report.json` ou non.
-          # Ajustez si nécessaire.
 
-  # 3) JOB DE DÉPLOIEMENT
   deploy:
-    # Nécessite que `test` soit terminé et réussi
     needs: test
-    # Déploiement GitHub Pages (environnement de type "github-pages")
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-
     steps:
       - name: Download docs artifact
         uses: actions/download-artifact@v3
         with:
           name: docs
           path: artifacts
-
       - name: Unzip artifact
         uses: montudor/action-zip@v1
         with:
-          # On décompresse le fichier ZIP qui se trouve maintenant dans `artifacts/`.
           args: unzip -qq artifacts/${{ env.ARTIFACT }} -d dir
 
+      # Configuration, publication et déploiement
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
       - name: Upload artifact to Pages
         uses: actions/upload-pages-artifact@v1
         with:
-          # On envoie le contenu dézippé vers GitHub Pages
           path: dir
 
       - name: Deploy to GitHub Pages
