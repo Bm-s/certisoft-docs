@@ -1,4 +1,4 @@
-# Mise à jour v2024.07.22
+# Mise à jour v240722
 
 ## Modification de la notation des versions
 
