@@ -4,7 +4,7 @@
 [Explicatif de mise à jour v250317](Mise-a-jour-250317.md)
 
 ### v240709
-[Explicatif de mise à jour v240709](Mise-a-jour-v2024-07-22.md)
+[Explicatif de mise à jour v240709](Mise-a-jour-240722.md)
 
 ### v3.2.0
 [Explicatif de mise à jour v3.2.0](Mise-a-jour-3-2-0.md)
