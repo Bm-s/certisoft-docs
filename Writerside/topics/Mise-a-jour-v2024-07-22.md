@@ -32,6 +32,7 @@ Un formulaire est constitué des éléments suivants :
 - Une durée en minutes
 - Une description
 - Des questions
+- 
 
 Si le secteur lié est saisi, il sera rempli d'office et ne sera pas modifiable lors de la saisie d'une annonce.
 
