@@ -32,7 +32,7 @@ Enfin, on retrouve un onglet "Paramètres" pour définir les réglages de l'indi
 
 #### Périodicité
 
-La périodicité permet de sélectionner si un instant où une période, cette option permet de choisir si les mesures seront ajoutée avec uniquement une date (instant T) ou une date de début et une date de fin (période).  
+La périodicité permet de sélectionner un instant ou une période, cette option permet de choisir si les mesures seront ajoutées avec uniquement une date (instant T) ou une date de début et une date de fin (période).  
 
 ![250317_cs_indicator_edit_period_type.png](250317_cs_indicateur_edit_period_type.png)
 
@@ -66,9 +66,9 @@ Désormais, plusieurs mesures peuvent être rattachées à un même indicateur.
 
 Au moins un modèle est obligatoire pour pouvoir ajouter un relevé de mesures dans l'indicateur. 
 
-Le modèle de relevé et l'unité sont des champs textes libres pour laisser le choix de paramétrage. Le type est Oui/Non, nombre ou texte et défini ce que l'utilisateur devra rentrer comme mesure.
+Le modèle de relevé et l'unité sont des champs textes libres pour laisser le choix de paramétrage. Le type est Oui/Non, nombre ou texte et définit ce que l'utilisateur devra rentrer comme mesure.
 <br/> 
-Il est possible de supprimer un modèle en cliquant sur la corbeille rouge à droite. Attention, cette action est irreversible.
+Il est possible de supprimer un modèle en cliquant sur la corbeille rouge à droite. Attention, cette action est irréversible.
 
 La valeur cible est optionnelle est permet d'indiquer l'objectif de la mesure.
 
