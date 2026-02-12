@@ -4,6 +4,7 @@
 ## Modifications sur les paramètres utilisateur
 - Le symbole de changement de mot de passe a été revu pour une meilleure compréhension dans la gestion des utilisateurs.
 - Ajout d'une option par utilisateur pour choisir si le lien de notification email ouvre l'Application dans FileMaker ou depuis le navigateur web par défaut, offrant plus de flexibilité.
+
 ![3-1-9_01_1.png](3-1-9_01_1.png)
  
 
