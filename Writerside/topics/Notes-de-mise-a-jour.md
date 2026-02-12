@@ -1,5 +1,8 @@
 # Notes de mise à jour
 
+### v251208
+[Explicatif de mise à jour v251208](Mise-a-jour-251208.md)
+
 ### v250317
 [Explicatif de mise à jour v250317](Mise-a-jour-250317.md)
 

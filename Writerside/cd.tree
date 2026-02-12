@@ -7,8 +7,8 @@
                  start-page="Notes-de-mise-a-jour.md">
 
     <toc-element topic="Notes-de-mise-a-jour.md">
+        <toc-element topic="Mise-a-jour-251208.md"/>
         <toc-element topic="Mise-a-jour-250317.md"/>
-        <toc-element topic="Mise-à-jour-v251208.md"/>
         <toc-element topic="Mise-a-jour-240722.md"/>
         <toc-element topic="Mise-a-jour-3-2-0.md"/>
         <toc-element topic="Mise-a-jour-3-1-9.md"/>
